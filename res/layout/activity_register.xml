@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".RegisterActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/splash" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/register"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_email"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary" />
+
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimary" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_name"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary" />
+
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_mobile"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary" />
+
+
+
+        <!--<EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary" />-->
+
+        <!--<EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary" />-->
+
+        <EditText
+            android:id="@+id/etOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter OTP"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:background="@drawable/bg_primary_solid_5dp"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOTPVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">All in one App</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="not_a_account_register_now">Not a Account? Register now</string>
+    <string name="i_strictly_warn_you_please_verify_your_email_address_other_your_account_will_be_blocked_for_me">I strictly warn you. Please verify your email address. Other your account will be blocked for me.</string>
+    <string name="register">Register</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="please_verify_your_email_address">Please verify your email address</string>
+    <string name="enter_mobile">Enter Mobile</string>
+    <string name="send">Send</string>
+    <string name="book_store">Book Store</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="select_subject">Select Subject</string>
+</resources>
